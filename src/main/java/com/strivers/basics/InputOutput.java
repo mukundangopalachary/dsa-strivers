@@ -9,7 +9,6 @@ public class InputOutput {
     System.out.print("Enter a Number");
     int num = sc.nextInt();
 
-    sc.close();
     return num;
   }
 }
