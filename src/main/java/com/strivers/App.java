@@ -24,5 +24,11 @@ public class App {
     DynamicList.arrayList();
     Stack.learnStack();
     Queue.tryQueue();
+    HashSetBasics.HashSetBasicsMain();
+    TreeSetBasics.TreeSetMain();
+    LinkedHashSetBasics.LinkedHashSetMain();
+    HashMapBasics.HashMapMain();
+    TreeMapBasics.TreeMapMain();
+    LinkedHashMapBasics.LinkedHashMapMain();
   }
 }
