@@ -4,7 +4,11 @@ package com.strivers;
 import com.strivers.basics.*;
 import com.strivers.basics.patterns.*; */
 
-import com.strivers.basics.collections.*;
+// import com.strivers.basics.collections.*;
+
+// import com.strivers.basics.maths.*;
+
+import com.strivers.basics.hashing.*;
 
 public class App {
   public static void main(String[] args) {
@@ -21,14 +25,26 @@ public class App {
      * pattern_4.pattern4();
      */
 
-    DynamicList.arrayList();
-    Stack.learnStack();
-    Queue.tryQueue();
-    HashSetBasics.HashSetBasicsMain();
-    TreeSetBasics.TreeSetMain();
-    LinkedHashSetBasics.LinkedHashSetMain();
-    HashMapBasics.HashMapMain();
-    TreeMapBasics.TreeMapMain();
-    LinkedHashMapBasics.LinkedHashMapMain();
+    /*
+     * DynamicList.arrayList();
+     * Stack.learnStack();
+     * Queue.tryQueue();
+     * HashSetBasics.HashSetBasicsMain();
+     * TreeSetBasics.TreeSetMain();
+     * LinkedHashSetBasics.LinkedHashSetMain();
+     * HashMapBasics.HashMapMain();
+     * TreeMapBasics.TreeMapMain();
+     * LinkedHashMapBasics.LinkedHashMapMain();
+     */
+
+    /*
+     * CountAllDigitsOfANumber.countAllDigitsOfANumber();
+     * ReverseANumber.reverseANumber();
+     * GCDOfTwoNumbers.gCDOfTwoNumbers();
+     * CheckIfArmstrong.checkIfArmstrong();
+     * FindAllDivisors.findAllDivisors();
+     */
+
+    CountFrequency.countFrequency();
   }
 }
