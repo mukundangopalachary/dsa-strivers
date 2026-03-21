@@ -6,7 +6,9 @@ import com.strivers.basics.patterns.*; */
 
 // import com.strivers.basics.collections.*;
 
-import com.strivers.basics.maths.*;
+// import com.strivers.basics.maths.*;
+
+import com.strivers.basics.hashing.*;
 
 public class App {
   public static void main(String[] args) {
@@ -35,8 +37,14 @@ public class App {
      * LinkedHashMapBasics.LinkedHashMapMain();
      */
 
-    CountAllDigitsOfANumber.countAllDigitsOfANumber();
-    ReverseANumber.reverseANumber();
+    /*
+     * CountAllDigitsOfANumber.countAllDigitsOfANumber();
+     * ReverseANumber.reverseANumber();
+     * GCDOfTwoNumbers.gCDOfTwoNumbers();
+     * CheckIfArmstrong.checkIfArmstrong();
+     * FindAllDivisors.findAllDivisors();
+     */
 
+    CountFrequency.countFrequency();
   }
 }
