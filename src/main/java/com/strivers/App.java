@@ -8,7 +8,9 @@ import com.strivers.basics.patterns.*; */
 
 // import com.strivers.basics.maths.*;
 
-import com.strivers.basics.hashing.*;
+// import com.strivers.basics.hashing.*;
+
+import com.strivers.basics.recursion.*;
 
 public class App {
   public static void main(String[] args) {
@@ -45,6 +47,19 @@ public class App {
      * FindAllDivisors.findAllDivisors();
      */
 
-    CountFrequency.countFrequency();
+    // CountFrequency.countFrequency();
+
+    /*
+     * PrintNTimes printNTimes = new PrintNTimes();
+     * printNTimes.printNTimes(10);
+     */
+
+    PrintOneToN printOneToN = new PrintOneToN();
+    printOneToN.printOneToNForward(5);
+    printOneToN.PrintOneToNBacktrack(5);
+
+    SumOfFirstNNumbers.sumOfFirstNNumbers(5);
+    Factorial.factorial(5);
+    Fibonacci.fibonacci(8);
   }
 }
