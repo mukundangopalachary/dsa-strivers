@@ -10,7 +10,9 @@ import com.strivers.basics.patterns.*; */
 
 // import com.strivers.basics.hashing.*;
 
-import com.strivers.basics.recursion.*;
+import com.strivers.sorting.*;
+
+// import com.strivers.basics.recursion.*;
 
 public class App {
   public static void main(String[] args) {
@@ -54,12 +56,18 @@ public class App {
      * printNTimes.printNTimes(10);
      */
 
-    PrintOneToN printOneToN = new PrintOneToN();
-    printOneToN.printOneToNForward(5);
-    printOneToN.PrintOneToNBacktrack(5);
+    /*
+     * PrintOneToN printOneToN = new PrintOneToN();
+     * printOneToN.printOneToNForward(5);
+     * printOneToN.PrintOneToNBacktrack(5);
+     * 
+     * SumOfFirstNNumbers.sumOfFirstNNumbers(5);
+     * Factorial.factorial(5);
+     * Fibonacci.fibonacci(8);
+     */
 
-    SumOfFirstNNumbers.sumOfFirstNNumbers(5);
-    Factorial.factorial(5);
-    Fibonacci.fibonacci(8);
+    int[] arr = { 32, 2, 8, 71, 1 };
+    Selection.trySeclectionSorting(arr);
+
   }
 }
