@@ -67,7 +67,7 @@ public class App {
      */
 
     int[] arr = { 32, 2, 8, 71, 1 };
-    Selection.trySeclectionSorting(arr);
-
+    // Selection.trySeclectionSorting(arr);
+    Bubble.tryBubbleSorting(arr);
   }
 }
