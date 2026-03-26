@@ -70,5 +70,13 @@ public class App {
     // Selection.trySeclectionSorting(arr);
     // Bubble.tryBubbleSorting(arr);
     Insertion.tryInsertionSorting(arr);
+
+    int[] arr1 = { 3, 17, 4, 6, 8, 7 };
+    Merge.tryMergeSorting(arr1, 0, arr1.length - 1);
+
+    for (int i : arr1) {
+      System.out.print(i + " ");
+    }
+    System.out.println();
   }
 }
