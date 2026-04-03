@@ -10,9 +10,11 @@ import com.strivers.basics.patterns.*; */
 
 // import com.strivers.basics.hashing.*;
 
-import com.strivers.sorting.*;
+// import com.strivers.sorting.*;
 
 // import com.strivers.basics.recursion.*;
+
+import com.strivers.arrays.easy.*;
 
 public class App {
   public static void main(String[] args) {
@@ -69,14 +71,18 @@ public class App {
     int[] arr = { 32, 2, 8, 71, 1 };
     // Selection.trySeclectionSorting(arr);
     // Bubble.tryBubbleSorting(arr);
-    Insertion.tryInsertionSorting(arr);
+    /*
+     * Insertion.tryInsertionSorting(arr);
+     * 
+     * int[] arr1 = { 3, 17, 4, 6, 8, 7 };
+     * Merge.tryMergeSorting(arr1, 0, arr1.length - 1);
+     * 
+     * for (int i : arr1) {
+     * System.out.print(i + " ");
+     * }
+     * System.out.println();
+     */
 
-    int[] arr1 = { 3, 17, 4, 6, 8, 7 };
-    Merge.tryMergeSorting(arr1, 0, arr1.length - 1);
-
-    for (int i : arr1) {
-      System.out.print(i + " ");
-    }
-    System.out.println();
+    LargestNumber.findLargestNumber(arr);
   }
 }
