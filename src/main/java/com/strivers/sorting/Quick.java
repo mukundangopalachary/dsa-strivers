@@ -37,4 +37,33 @@ public class Quick {
     return i;
   }
 
+
+  public static void lomuto(int[] arr){
+    
+    int n = arr.length;
+    int pivot = arr[n - 1];
+
+    int i = -1;
+
+    for(int j = 0; j<n; j++){
+
+      if(arr[j] < pivot){
+        i++;
+        int temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+      }
+    }
+
+    int temp = arr[i + 1];
+    arr[i+1] = arr[n  - 1];
+    arr[n-1] = temp;
+
+    for(int num : arr){
+      System.out.print(num + " ");
+    }
+
+    System.out.println();
+  }
+
 }

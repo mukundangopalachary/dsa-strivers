@@ -15,6 +15,8 @@ import com.strivers.basics.patterns.*; */
 // import com.strivers.basics.recursion.*;
 
 import com.strivers.arrays.easy.*;
+import com.strivers.sorting.HoareQuickSort;
+import com.strivers.sorting.Quick;
 
 public class App {
   public static void main(String[] args) {
@@ -68,7 +70,7 @@ public class App {
      * Fibonacci.fibonacci(8);
      */
 
-    int[] arr = { 32, 2, 8, 71, 1 };
+    int[] arr = { 32, 2, 8, 71, 1, 6 };
     // Selection.trySeclectionSorting(arr);
     // Bubble.tryBubbleSorting(arr);
     /*
@@ -82,14 +84,18 @@ public class App {
      * }
      * System.out.println();
      */
+    /*
+     * LargestNumber.findLargestNumber(arr);
+     * SecondLargestNumber.findSecondLargestNumber(arr);
+     * 
+     * int[] arr2 = { 1, 1, 1, 1, 2, 2, 3, 4, 5, 6, 6, 7, 7, 7, 7 };
+     * RemoveDuplicatesInSortedArray.removeDuplicatesInSortedArray(arr2);
+     * 
+     * int[] leftRotate = { 1, 2, 3, 4, 5, 6, 7};
+     * LeftRotateTheArrayByK.leftRotateTheArrayByK(leftRotate, 2);
+     */
 
-    LargestNumber.findLargestNumber(arr);
-    SecondLargestNumber.findSecondLargestNumber(arr);
-
-    int[] arr2 = { 1, 1, 1, 1, 2, 2, 3, 4, 5, 6, 6, 7, 7, 7, 7 };
-    RemoveDuplicatesInSortedArray.removeDuplicatesInSortedArray(arr2);
-
-    int[] leftRotate = { 1, 2, 3, 4, 5, 6, 7};
-    LeftRotateTheArrayByK.leftRotateTheArrayByK(leftRotate, 2);
+    Quick.lomuto(arr);
+    HoareQuickSort.tryHoareQuickSorting(arr);
   }
 }
