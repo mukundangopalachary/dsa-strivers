@@ -84,5 +84,12 @@ public class App {
      */
 
     LargestNumber.findLargestNumber(arr);
+    SecondLargestNumber.findSecondLargestNumber(arr);
+
+    int[] arr2 = { 1, 1, 1, 1, 2, 2, 3, 4, 5, 6, 6, 7, 7, 7, 7 };
+    RemoveDuplicatesInSortedArray.removeDuplicatesInSortedArray(arr2);
+
+    int[] leftRotate = { 1, 2, 3, 4, 5, 6, 7};
+    LeftRotateTheArrayByK.leftRotateTheArrayByK(leftRotate, 2);
   }
 }
