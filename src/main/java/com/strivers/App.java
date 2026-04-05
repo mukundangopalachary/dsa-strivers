@@ -94,8 +94,12 @@ public class App {
      * int[] leftRotate = { 1, 2, 3, 4, 5, 6, 7};
      * LeftRotateTheArrayByK.leftRotateTheArrayByK(leftRotate, 2);
      */
+    /*
+     * Quick.lomuto(arr);
+     * HoareQuickSort.tryHoareQuickSorting(arr);
+     */
 
-    Quick.lomuto(arr);
-    HoareQuickSort.tryHoareQuickSorting(arr);
+    int[] moveZerosArray = { 0, 1, 2, 0, 0, 3, 2, 100 };
+    MoveZeros.moveZeroes(moveZerosArray);
   }
 }
