@@ -101,5 +101,14 @@ public class App {
 
     int[] moveZerosArray = { 0, 1, 2, 0, 0, 3, 2, 100 };
     MoveZeros.moveZeroes(moveZerosArray);
+
+    System.out.println("At the index: " + LinearSearch.linearSearch(arr, 71));
+
+    int[] a = { 1, 2, 3 };
+    int[] b = { 2, 3, 4, 4, 5 };
+    UnionOfTwoSortedArrays.unionOfTwoSortedArrays(a, b);
+
+    int[] ones = { 1, 1, 1, 0, 34, 54, 2342, 32, 1, 1, 0, 1, 1, 1, 1, 1, 93, 22, 1, 1 };
+    MaxConsecutiveOnes.maxConsecutiveOnes(ones);
   }
 }
