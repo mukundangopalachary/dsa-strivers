@@ -110,5 +110,7 @@ public class App {
 
     int[] ones = { 1, 1, 1, 0, 34, 54, 2342, 32, 1, 1, 0, 1, 1, 1, 1, 1, 93, 22, 1, 1 };
     MaxConsecutiveOnes.maxConsecutiveOnes(ones);
+
+    LongestSubarrayWithSumK.longestSubarrayWithSumK(ones, 5);
   }
 }
