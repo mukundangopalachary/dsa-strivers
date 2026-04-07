@@ -112,5 +112,7 @@ public class App {
     MaxConsecutiveOnes.maxConsecutiveOnes(ones);
 
     LongestSubarrayWithSumK.longestSubarrayWithSumK(ones, 5);
+
+    SubarraySumEqualsK.subarraySum(ones, 34);
   }
 }
