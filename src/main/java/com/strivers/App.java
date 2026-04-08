@@ -120,8 +120,9 @@ public class App {
      * SubarraySumEqualsK.subarraySum(ones, 34);
      */
 
-    int[] dutch_flag = { 2, 0, 1, 1, 0, 1, 2, 0, 1 };
+    int[] dutch_flag = { 2, 0, 1, 1, 0, 1, 2, 0, 1, 1, 1 };
     SortZerosOnesAndTwos.sortZerosOnesAndTwos(dutch_flag);
 
+    MajorityElement.majorityElement(dutch_flag);
   }
 }
