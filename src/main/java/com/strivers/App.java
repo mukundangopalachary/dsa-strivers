@@ -14,9 +14,12 @@ import com.strivers.basics.patterns.*; */
 
 // import com.strivers.basics.recursion.*;
 
-import com.strivers.arrays.easy.*;
+/* import com.strivers.arrays.easy.*;
 import com.strivers.sorting.HoareQuickSort;
 import com.strivers.sorting.Quick;
+ */
+
+import com.strivers.arrays.medium.*;
 
 public class App {
   public static void main(String[] args) {
@@ -98,21 +101,27 @@ public class App {
      * Quick.lomuto(arr);
      * HoareQuickSort.tryHoareQuickSorting(arr);
      */
+    /*
+     * int[] moveZerosArray = { 0, 1, 2, 0, 0, 3, 2, 100 };
+     * MoveZeros.moveZeroes(moveZerosArray);
+     * 
+     * System.out.println("At the index: " + LinearSearch.linearSearch(arr, 71));
+     * 
+     * int[] a = { 1, 2, 3 };
+     * int[] b = { 2, 3, 4, 4, 5 };
+     * UnionOfTwoSortedArrays.unionOfTwoSortedArrays(a, b);
+     * 
+     * int[] ones = { 1, 1, 1, 0, 34, 54, 2342, 32, 1, 1, 0, 1, 1, 1, 1, 1, 93, 22,
+     * 1, 1 };
+     * MaxConsecutiveOnes.maxConsecutiveOnes(ones);
+     * 
+     * LongestSubarrayWithSumK.longestSubarrayWithSumK(ones, 5);
+     * 
+     * SubarraySumEqualsK.subarraySum(ones, 34);
+     */
 
-    int[] moveZerosArray = { 0, 1, 2, 0, 0, 3, 2, 100 };
-    MoveZeros.moveZeroes(moveZerosArray);
+    int[] dutch_flag = { 2, 0, 1, 1, 0, 1, 2, 0, 1 };
+    SortZerosOnesAndTwos.sortZerosOnesAndTwos(dutch_flag);
 
-    System.out.println("At the index: " + LinearSearch.linearSearch(arr, 71));
-
-    int[] a = { 1, 2, 3 };
-    int[] b = { 2, 3, 4, 4, 5 };
-    UnionOfTwoSortedArrays.unionOfTwoSortedArrays(a, b);
-
-    int[] ones = { 1, 1, 1, 0, 34, 54, 2342, 32, 1, 1, 0, 1, 1, 1, 1, 1, 93, 22, 1, 1 };
-    MaxConsecutiveOnes.maxConsecutiveOnes(ones);
-
-    LongestSubarrayWithSumK.longestSubarrayWithSumK(ones, 5);
-
-    SubarraySumEqualsK.subarraySum(ones, 34);
   }
 }
