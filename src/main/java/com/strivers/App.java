@@ -131,5 +131,9 @@ public class App {
     System.out.println(ans);
 
     BuyAndSellStock.buyAndSellStock(new int[] { 7, 1, 5, 3, 6, 4 });
+
+    RearrangeArrayElementsBySign.rearrangeArrayElementsBySign(new int[] { 1, 2, -4, -5 });
+
+    LeadersInArray.leadersInArray(new int[] { 4, 7, 1, 0 });
   }
 }
