@@ -124,5 +124,12 @@ public class App {
     SortZerosOnesAndTwos.sortZerosOnesAndTwos(dutch_flag);
 
     MajorityElement.majorityElement(dutch_flag);
+
+    int[] nums = { 2, 3, 5, -2, 7, -4 };
+    int ans = MaximumSubarrayNegative.maxSubArray(nums);
+
+    System.out.println(ans);
+
+    BuyAndSellStock.buyAndSellStock(new int[] { 7, 1, 5, 3, 6, 4 });
   }
 }
