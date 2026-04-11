@@ -20,6 +20,7 @@ import com.strivers.sorting.Quick;
  */
 
 import com.strivers.arrays.medium.*;
+import com.strivers.sliding_window.*;
 
 public class App {
   public static void main(String[] args) {
@@ -135,5 +136,7 @@ public class App {
     RearrangeArrayElementsBySign.rearrangeArrayElementsBySign(new int[] { 1, 2, -4, -5 });
 
     LeadersInArray.leadersInArray(new int[] { 4, 7, 1, 0 });
+
+    LongestRepeatingCharacterReplacement.characterReplacement("AABABBA", 1);
   }
 }
