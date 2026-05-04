@@ -12,7 +12,7 @@
 
 ## Moore Voting Algorithm
 
-- Majority Element II (Leetcode) (Completed Count: 0)
+- Majority Element II (Leetcode) (Completed Count: 1)
 
 ## Sliding Window
 
