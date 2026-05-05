@@ -1,8 +1,7 @@
 package com.strivers;
 
-/* 
-import com.strivers.basics.*;
-import com.strivers.basics.patterns.*; */
+// import com.strivers.basics.*;
+import com.strivers.basics.patterns.*;
 
 // import com.strivers.basics.collections.*;
 
@@ -120,6 +119,8 @@ public class App {
      * 
      * SubarraySumEqualsK.subarraySum(ones, 34);
      */
+
+    pattern_5.pattern5(5);
 
     int[] dutch_flag = { 2, 0, 1, 1, 0, 1, 2, 0, 1, 1, 1 };
     SortZerosOnesAndTwos.sortZerosOnesAndTwos(dutch_flag);
