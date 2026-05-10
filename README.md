@@ -8,6 +8,7 @@
 4. [Binary Search](./src/main/java/com/strivers/binary_search/)
 5. [Sliding Window](./src/main/java/com/strivers/sliding_window/)
 6. [String](./src/main/java/com/strivers/strings/)
+7. [Linked List](./src/main/java/com/strivers/linkedlist/)
 
 ## To run project
 
