@@ -1,4 +1,6 @@
-package com.strivers.linkedlist.singlyLL;
+package com.strivers.linkedlist.singlyLL.problems.medium;
+
+import com.strivers.linkedlist.singlyLL.ListNode;
 
 public class DeleteTheNextNode {
 
