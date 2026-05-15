@@ -36,4 +36,8 @@
 
 ## Strings
 
-- Reverse Words in a String (Leetcode) (Completed CountL 0)
+- Reverse Words in a String (Leetcode) (Completed Count: 0)
+
+## LinkedList
+
+- Add two Numbers (Leetcode) (Completed Count: 0)
