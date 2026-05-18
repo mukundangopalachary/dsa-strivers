@@ -41,3 +41,4 @@
 ## LinkedList
 
 - Add two Numbers (Leetcode) (Completed Count: 0)
+- Delete All the Occurences of Target in Doubly LinkedList(Completed Count: 0)
