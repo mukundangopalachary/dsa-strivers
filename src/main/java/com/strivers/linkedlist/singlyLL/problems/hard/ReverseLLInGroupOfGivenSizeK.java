@@ -32,5 +32,5 @@ public class ReverseLLInGroupOfGivenSizeK {
     }
 
     return prev;
-  
+  }
 }
