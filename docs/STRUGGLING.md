@@ -46,4 +46,5 @@
 
 ## Bit Manipulation
 
-- Single Number - III
+- Single Number III (Leetcode) (Completed Count: 0)
+- Subsets (Leetcode) (Completed Count: 0)
