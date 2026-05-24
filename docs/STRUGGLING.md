@@ -43,3 +43,7 @@
 - Add two Numbers (Leetcode) (Completed Count: 0)
 - Delete All the Occurences of Target in Doubly LinkedList(Completed Count: 0)
 - Reverse Nodes In K-Group (Leetcode) (Completed Count: 0)
+
+## Bit Manipulation
+
+- Single Number - III
