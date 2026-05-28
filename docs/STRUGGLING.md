@@ -48,3 +48,7 @@
 
 - Single Number III (Leetcode) (Completed Count: 0)
 - Subsets (Leetcode) (Completed Count: 0)
+
+## Stack
+
+- Next Greater Element (Leetcode) (Completed Count: 0)
