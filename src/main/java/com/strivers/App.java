@@ -23,8 +23,10 @@ import com.strivers.sliding_window.*;
 
 public class App {
   public static void main(String[] args) {
+
     System.out.println("Welcome to strivers list!!\n");
-    pattern_6.pattern(4);
+    pattern_7.pattern(5);
+    // pattern_6.pattern(4);
     /*
      * InputOutput.tryInput();
      * ArraysIntroduction.tryArrayIntroduction();
