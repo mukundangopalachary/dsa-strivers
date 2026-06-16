@@ -29,12 +29,12 @@ public class PalindromePartitioning {
     }
   }
 
-  public boolean palindrome(String temp){
+  public boolean palindrome(String temp) {
     int i = 0;
     int j = temp.length() - 1;
 
-    while(i <= j){
-      if(temp.charAt(i) != temp.charAt(j)){
+    while (i <= j) {
+      if (temp.charAt(i) != temp.charAt(j)) {
         return false;
       }
       i++;
@@ -42,5 +42,5 @@ public class PalindromePartitioning {
     }
 
     return true;
-  
+  }
 }
