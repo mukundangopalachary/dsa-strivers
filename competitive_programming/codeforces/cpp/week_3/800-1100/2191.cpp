@@ -24,6 +24,4 @@ int main() {
     }
     arr.push_back(tmp);
   }
-
-  if ()
 }
