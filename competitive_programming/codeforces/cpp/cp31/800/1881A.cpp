@@ -16,10 +16,12 @@ int main() {
     string x, s;
     cin >> x >> s;
 
-    if (n >= m) {
-      if (x.find(s) != string::npos) {
-        cout << 0;
-      }
+    string x1 = x + x;
+    string x2 = x1 + x1;
+    string x3 = x2 + x2;
+    string x4 = x3 + x3;
+
+    for (int i = 0; i < 5; i++) {
     }
   }
 
