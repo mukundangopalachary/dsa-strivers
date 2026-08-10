@@ -40,7 +40,8 @@ public class NoWeightUndirectedShortestPath {
     }
 
     for (int i = 0; i < V; i++) {
-      if (dist[i] == (int) 1e9) dist[i] = -1;
+      if (dist[i] == (int) 1e9)
+        dist[i] = -1;
     }
 
     return dist;
