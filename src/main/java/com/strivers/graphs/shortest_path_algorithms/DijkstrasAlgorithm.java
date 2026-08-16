@@ -16,24 +16,25 @@ public class DijkstrasAlgorithm {
     }
 
     for (int[] e : edges) {
-      G.get(e[0]).add(new int[] {e[1], e[2]}); // e[2] -> weight
+      G.get(e[0]).add(new int[] { e[1], e[2] }); // e[2] -> weight
     }
 
     PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
     int[] dist = new int[n];
     Arrays.fill(dist, (int) 1e9);
 
-    pq.offer(new int[] {src, 0});
+    pq.offer(new int[] { src, 0 });
 
-    visited[src] = true;
     dist[src] = 0;
 
     while (!pq.isEmpty()) {
       int[] node = pq.poll();
 
-      if (visited[node[0]]) continue;
+      if (visited[node[0]])
+        continue;
 
-      if (node[1] < dist[node[0]]) continue;
+      if (node[1] > dist[node[0]])
+        continue;
 
       visited[node[0]] = true;
 
@@ -43,13 +44,14 @@ public class DijkstrasAlgorithm {
 
         if (!visited[u] && dist[node[0]] + wt < dist[u]) {
           dist[u] = dist[node[0]] + wt;
-          pq.offer(new int[] {u, dist[u]});
+          pq.offer(new int[] { u, dist[u] });
         }
       }
     }
 
     for (int i = 0; i < n; i++) {
-      if (dist[i] == (int) 1e9) dist[i] = -1;
+      if (dist[i] == (int) 1e9)
+        dist[i] = -1;
     }
 
     return dist;
