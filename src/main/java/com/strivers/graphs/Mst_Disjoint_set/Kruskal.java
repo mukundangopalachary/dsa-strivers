@@ -4,23 +4,23 @@ import java.util.Arrays;
 
 public class Kruskal {
 
-  public int kruskalMst(int V, int[][] edges){
+  public int kruskalMst(int V, int[][] edges) {
     int cost = 0;
     int count = 0;
 
-    DSU dsu = new DSU(V);
+    DSU_A dsu = new DSU_A(V);
 
     Arrays.sort(edges, (a, b) -> Integer.compare(a[0], b[0]));
 
-    for(int[] e : edges){
+    for (int[] e : edges) {
       int u = e[0];
       int v = e[1];
       int wt = e[2];
 
-      if(dsu.find(u) != dsu.find(v)){
+      if (dsu.find(u) != dsu.find(v)) {
         dsu.union(u, v);
         cost += wt;
-        if(++count == V - 1) break;
+        if (++count == V - 1) break;
       }
     }
 
@@ -28,38 +28,38 @@ public class Kruskal {
   }
 }
 
-class DSU{
+class DSU_A {
   int[] parent;
   int[] size;
-  public DSU(int n){
+
+  public DSU_A(int n) {
     parent = new int[n];
     size = new int[n];
 
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
       parent[i] = i;
       size[i] = 1;
     }
   }
 
-  public int find(int x){
-    if(parent[x] == x) return x;
+  public int find(int x) {
+    if (parent[x] == x) return x;
 
     return parent[x] = find(x);
   }
 
-  public boolean union(int a, int b){
+  public boolean union(int a, int b) {
     int s1 = find(a);
     int s2 = find(b);
 
-    if(size[s1] >= size[s2]){
+    if (size[s1] >= size[s2]) {
       parent[s2] = s1;
       size[s1] += size[s2];
-    }else{
+    } else {
       parent[s1] = s2;
       size[s2] += size[s1];
     }
 
     return true;
   }
-
 }
