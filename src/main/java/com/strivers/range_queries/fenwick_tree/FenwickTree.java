@@ -4,12 +4,12 @@ public class FenwickTree {
 
   public int[] constructFenwickTree(int[] arr, int n){
     int[] fenwickTree = new int[n + 1];
-    for(int i = 0; i < n; i++) fenwickTree[i+1] = fenwickTree[i];
+    for(int i = 0; i < n; i++) fenwickTree[i+1] = arr[i];
 
     for(int i = 1; i <= n; i++){
       int parent = i + (i & -i);
       if(parent <= n){
-        fenwickTree[parent] += fenwickTree[n];
+        fenwickTree[parent] += fenwickTree[i];
       }
     }
 
