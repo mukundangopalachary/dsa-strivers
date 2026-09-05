@@ -16,6 +16,7 @@ public class FenwickTree {
     return fenwickTree;
   }
 
+  //point update
   public void addFenwickTree(int[] fenwickTree, int n, int index, int val){
     index += 1;
 
