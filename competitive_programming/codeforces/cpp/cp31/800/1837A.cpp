@@ -14,11 +14,12 @@ int main() {
     cin >> n >> k;
 
     if (n % k == 0) {
-      int tmp = n - 1;
-      while (tmp--) {
-      }
+      cout << 2 << '\n' << 1 << ' ' <<  n - 1 << '\n';
+
     } else {
-      cout << 1 << '\n' << n;
+      cout << 1 << '\n' << n << '\n';
     }
   }
+
+  return 0;
 }
