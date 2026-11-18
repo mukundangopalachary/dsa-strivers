@@ -9,21 +9,19 @@ int main() {
   cin >> t;
 
   while (t--) {
-    int x1, x2, y1, y2;
+    int a, b, c, d;
 
-    cin >> x1 >> x2 >> y1 >> y2;
+    cin >> a >> b >> c >> d;
 
-    if (y1 > y2) {
+    if(b > d || c > a + (d - b)){
       cout << -1 << '\n';
-    } else if (x1 > x2) {
-      cout << x1 - x2;
-    } else {
-      if (abs(x1 - x2) > y2) {
-        cout << -1 << '\n';
-      } else {
-        cout << x1 - x2 << '\n';
-      }
+    }else{
+      int y = d - b;
+      int x = (y + a) - c;
+
+      cout << x + y << '\n';
     }
+
   }
   return 0;
 }

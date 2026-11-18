@@ -31,7 +31,7 @@ public class DetectCycleInUndirectedGraph {
       }
     }
 
-    return true;
+    return false;
   }
 
   public boolean bfs(int i, boolean[] visited, List<List<Integer>> adj_list) {
