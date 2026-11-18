@@ -11,6 +11,23 @@ Rules:
 
 ---
 
+## Progress snapshot (updated 2026-11-18, after merging the other laptop's work)
+
+Done so far, beyond Strivers basics:
+- DP: 0/1 knapsack, unbounded knapsack, 9 CSES DP, 5 AtCoder DP, LIS O(n²) (cp-algorithms)
+- Graphs: DSU, Kruskal, Prim (list and matrix), Accounts Merge, bipartite BFS/DFS, Ford-Fulkerson, bipartite matching, Floyd-Warshall, Find the City
+- Range queries: Fenwick tree, 5 CSES range queries
+- CF: ~80 solutions (27 at 800, 8 at 900, 6 at 1200, 1 each at 1300/1500, 34 "random"), 4 Div.3 + 2 Div.2 rounds attempted
+
+Still empty: DP beyond knapsack (strings, LIS fast, grid, stocks, interval), heap problems, greedy, trie, segment tree, SCC/bridges, math/number theory.
+
+Unfinished files (no output or stub, finish or delete):
+`atcoder/dp/tasks/knapsack_2.cpp`, `atcoder/beginner/475/walkTheLine.cpp`, `codeforces/contests/div3/round1119/2259D.cpp`, `round1122/2266C.cpp`, `cp31/1100/1904B.cpp`, `cp31/1200/1497B.cpp`, `cp31/900/1904A.cpp`, `codeforces/cpp/graphs/{1272E,189B,623A}.cpp`, `week_3/800-1100/2191.cpp`, `cses/additional_problems/coding_company.cpp`
+
+Reorder: since DSU/MST/bipartite are mostly done, Phase 2 shrinks to SCC/bridges and shortest-path problems. Spend the freed time on DP (strings, LIS, stocks, interval) and heap/greedy.
+
+---
+
 ## Phase 0: Revision of weak spots (Week 1)
 
 Items from `docs/STRUGGLING.md`. Redo from scratch.
@@ -40,7 +57,7 @@ Items from `docs/STRUGGLING.md`. Redo from scratch.
 - [ ] [Single Number III](https://leetcode.com/problems/single-number-iii/) M. xor, lowest set bit
 - [ ] [Subsets](https://leetcode.com/problems/subsets/) M. bitmask version too
 - [ ] [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) E
-- [ ] Finish `FloydWarshallAlgorithm.java` (currently an empty, non-compiling stub)
+- [x] Finish `FloydWarshallAlgorithm.java` (done, compiles)
 
 ---
 
@@ -68,7 +85,7 @@ Problems:
 - [ ] [Jump Game II](https://leetcode.com/problems/jump-game-ii/) M
 - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) M
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) M
-- [ ] [Frog Jump with K distance (GFG)](https://www.geeksforgeeks.org/problems/minimal-cost/1) M
+- [x] [Frog Jump with K distance (GFG)](https://www.geeksforgeeks.org/problems/minimal-cost/1) M
 
 ### 1.2 Grid DP
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/) M
@@ -92,7 +109,7 @@ Problems:
 - [ ] [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) M
 - [ ] [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) M. 2D knapsack
 - [ ] [Partitions with Given Difference (GFG)](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1) M
-- [ ] [0-1 Knapsack (GFG)](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) M
+- [x] [0-1 Knapsack (GFG)](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) M
 - [ ] [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) M
 
 ### 1.4 Unbounded Knapsack
@@ -165,22 +182,43 @@ Problems:
 - [ ] DP on probability: [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) M
 
 ### 1.11 CSES DP (competitive practice)
-- [ ] [Dice Combinations](https://cses.fi/problemset/task/1633)
-- [ ] [Minimizing Coins](https://cses.fi/problemset/task/1634)
-- [ ] [Coin Combinations I](https://cses.fi/problemset/task/1635)
-- [ ] [Coin Combinations II](https://cses.fi/problemset/task/1636)
-- [ ] [Removing Digits](https://cses.fi/problemset/task/1637)
-- [ ] [Grid Paths](https://cses.fi/problemset/task/1638)
-- [ ] [Book Shop](https://cses.fi/problemset/task/1158)
-- [ ] [Array Description](https://cses.fi/problemset/task/1746)
+- [x] [Dice Combinations](https://cses.fi/problemset/task/1633)
+- [x] [Minimizing Coins](https://cses.fi/problemset/task/1634)
+- [x] [Coin Combinations I](https://cses.fi/problemset/task/1635)
+- [x] [Coin Combinations II](https://cses.fi/problemset/task/1636)
+- [x] [Removing Digits](https://cses.fi/problemset/task/1637)
+- [x] [Grid Paths](https://cses.fi/problemset/task/1638)
+- [x] [Book Shop](https://cses.fi/problemset/task/1158)
+- [x] [Array Description](https://cses.fi/problemset/task/1746)
 - [ ] [Edit Distance](https://cses.fi/problemset/task/1639)
 - [ ] [Rectangle Cutting](https://cses.fi/problemset/task/1744)
-- [ ] [Money Sums](https://cses.fi/problemset/task/1745)
+- [x] [Money Sums](https://cses.fi/problemset/task/1745)
 - [ ] [Removal Game](https://cses.fi/problemset/task/1097)
 - [ ] [Two Sets II](https://cses.fi/problemset/task/1093)
 - [ ] [Increasing Subsequence](https://cses.fi/problemset/task/1145)
 - [ ] [Projects](https://cses.fi/problemset/task/1140)
 - [ ] [Elevator Rides](https://cses.fi/problemset/task/1653)
+
+### 1.12 AtCoder Educational DP Contest (best practice set, A to Z)
+[Contest tasks](https://atcoder.jp/contests/dp/tasks)
+- [x] A Frog 1
+- [x] B Frog 2
+- [x] C Vacation
+- [x] D Knapsack 1
+- [ ] E Knapsack 2 (stub in repo, finish. state = value, minimize weight)
+- [ ] F LCS (print the string)
+- [ ] G Longest Path (DP on DAG)
+- [ ] H Grid 1
+- [ ] I Coins (probability DP)
+- [ ] J Sushi (expectation DP)
+- [ ] K Stones (game DP)
+- [ ] L Deque (game DP)
+- [ ] M Candies (prefix-sum optimized DP)
+- [ ] N Slimes (interval DP)
+- [ ] O Matching (bitmask DP)
+- [ ] P Independent Set (tree DP)
+- [ ] Q Flowers (DP + Fenwick/segment tree)
+- [ ] R Walk (matrix exponentiation)
 
 ---
 
@@ -188,16 +226,17 @@ Problems:
 
 ### 2.1 DSU (Disjoint Set Union)
 Concepts:
-- [ ] `find` with path compression
-- [ ] `union` by rank/size
-- [ ] Implement `DSU.java` in `graphs/dsu/`
+- [x] `find` with path compression
+- [x] `union` by rank/size
+- [x] Implement DSU (currently `DSU_A` inside `Kruskal.java`; extract to `graphs/dsu/DSU.java` and reuse)
+- [x] **Fix bug in `Kruskal.java:13`**: sorts by `a[0]` (node u) instead of `a[2]` (weight). MST cost is wrong on most inputs
 
 Problems:
 - [ ] [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) M. redo with DSU
 - [ ] [Redundant Connection](https://leetcode.com/problems/redundant-connection/) M
 - [ ] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) M
 - [ ] [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) M
-- [ ] [Accounts Merge](https://leetcode.com/problems/accounts-merge/) M
+- [x] [Accounts Merge](https://leetcode.com/problems/accounts-merge/) M
 - [ ] [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) H
 - [ ] [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) M
 - [ ] [Making A Large Island](https://leetcode.com/problems/making-a-large-island/) H
@@ -205,8 +244,8 @@ Problems:
 
 ### 2.2 Minimum Spanning Tree
 Concepts:
-- [ ] Kruskal (sort edges + DSU)
-- [ ] Prim (priority queue)
+- [x] Kruskal (sort edges + DSU), bug fixed
+- [x] Prim (priority queue)
 - [ ] Cut property (why greedy works)
 
 Problems:
@@ -216,7 +255,7 @@ Problems:
 - [ ] CSES [Road Reparation](https://cses.fi/problemset/task/1675)
 
 ### 2.3 Bipartite / Cycle / Topo (revise + extend)
-- [ ] [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) M
+- [x] [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) M
 - [ ] [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) M
 - [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) M
 - [ ] [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) H
@@ -226,15 +265,15 @@ Problems:
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) M
 
 ### 2.4 Shortest Path (revise)
-- [ ] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) M. Dijkstra
-- [ ] [Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) M
+- [x] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) M. Dijkstra
+- [x] [Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) M
 - [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) M. Bellman-Ford / BFS levels
 - [ ] [Path With Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) M
 - [ ] [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) H
 - [ ] [Word Ladder](https://leetcode.com/problems/word-ladder/) H
 - [ ] [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) H
 - [ ] [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) M
-- [ ] [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) M. Floyd-Warshall
+- [x] [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) M. Floyd-Warshall
 - [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) H. Eulerian path
 
 ### 2.5 SCC, Bridges, Articulation Points
@@ -250,8 +289,8 @@ Problems:
 - [ ] CSES [Coin Collector](https://cses.fi/problemset/task/1686)
 
 ### 2.6 CSES Graph practice
-- [ ] [Counting Rooms](https://cses.fi/problemset/task/1192)
-- [ ] [Labyrinth](https://cses.fi/problemset/task/1193)
+- [x] [Counting Rooms](https://cses.fi/problemset/task/1192)
+- [x] [Labyrinth](https://cses.fi/problemset/task/1193)
 - [ ] [Building Roads](https://cses.fi/problemset/task/1666)
 - [ ] [Message Route](https://cses.fi/problemset/task/1667)
 - [ ] [Building Teams](https://cses.fi/problemset/task/1668)
@@ -261,7 +300,7 @@ Problems:
 - [ ] [Shortest Routes II](https://cses.fi/problemset/task/1672)
 - [ ] [High Score](https://cses.fi/problemset/task/1673)
 - [ ] [Flight Discount](https://cses.fi/problemset/task/1195)
-- [ ] [Cycle Finding](https://cses.fi/problemset/task/1197) (done in repo)
+- [x] [Cycle Finding](https://cses.fi/problemset/task/1197) (done in repo)
 - [ ] [Course Schedule](https://cses.fi/problemset/task/1679)
 - [ ] [Longest Flight Route](https://cses.fi/problemset/task/1680)
 - [ ] [Game Routes](https://cses.fi/problemset/task/1681)
@@ -325,9 +364,9 @@ Problems:
 
 ### 4.2 Prefix sums / Difference arrays / Range queries
 Concepts:
-- [ ] Prefix sum, 2D prefix sum
-- [ ] Difference array (range update)
-- [ ] Fenwick Tree (BIT)
+- [x] Prefix sum, 2D prefix sum
+- [x] Difference array (range update)
+- [x] Fenwick Tree (BIT)
 - [ ] Segment Tree (point update, range query)
 - [ ] Sparse Table (static RMQ)
 
@@ -337,9 +376,9 @@ Problems:
 - [ ] [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) M. difference array
 - [ ] [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) M. BIT / segment tree
 - [ ] [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) H
-- [ ] CSES [Static Range Sum Queries](https://cses.fi/problemset/task/1646)
-- [ ] CSES [Static Range Minimum Queries](https://cses.fi/problemset/task/1647)
-- [ ] CSES [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648)
+- [x] CSES [Static Range Sum Queries](https://cses.fi/problemset/task/1646)
+- [x] CSES [Static Range Minimum Queries](https://cses.fi/problemset/task/1647)
+- [x] CSES [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648)
 
 ### 4.3 Math for Competitive Programming
 Concepts:
@@ -378,7 +417,7 @@ Problems:
 ### 5.1 Contests
 - [ ] LeetCode Weekly: attend 4 in a row, goal 2/4 solved
 - [ ] LeetCode Weekly: goal 3/4 solved
-- [ ] Codeforces Div. 3 or Div. 4: 3 live or virtual rounds, goal A–C
+- [ ] Codeforces Div. 3 or Div. 4: 3 live or virtual rounds, goal A–C (2 attempted: rounds 1119, 1122; finish D/C stubs)
 - [ ] Codeforces Div. 3 or Div. 4: goal A–D
 - [ ] Codeforces Div. 2: 3 rounds, goal A–B
 
@@ -387,10 +426,10 @@ Use [problemset](https://codeforces.com/problemset) with a tag filter. 45 min ca
 
 | Rating | Target | Tags to cover |
 |---|---|---|
-| 800 | Done, ~40 solved | implementation, math, greedy |
-| 900–1000 | 30 | math, greedy, strings, sortings |
-| 1100–1200 | 30 | constructive, binary search, two pointers, number theory |
-| 1300–1400 | 30 | dp, graphs, dfs and similar, bitmasks, DSU |
+| 800 | Done, ~27 solved | implementation, math, greedy |
+| 900–1000 | 30 (11 done) | math, greedy, strings, sortings |
+| 1100–1200 | 30 (8 done) | constructive, binary search, two pointers, number theory |
+| 1300–1400 | 30 (1 done) | dp, graphs, dfs and similar, bitmasks, DSU |
 | 1500 | 15 | mixed |
 
 - [ ] 900–1000: 30 solved

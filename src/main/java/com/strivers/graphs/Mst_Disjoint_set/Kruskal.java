@@ -10,7 +10,7 @@ public class Kruskal {
 
     DSU_A dsu = new DSU_A(V);
 
-    Arrays.sort(edges, (a, b) -> Integer.compare(a[0], b[0]));
+    Arrays.sort(edges, (a, b) -> Integer.compare(a[2], b[2]));
 
     for (int[] e : edges) {
       int u = e[0];
