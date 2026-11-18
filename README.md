@@ -10,6 +10,11 @@
 6. [String](./src/main/java/com/strivers/strings/)
 7. [Linked List](./src/main/java/com/strivers/linkedlist/)
 
+## Roadmap
+
+[Roadmap & checklist](./docs/ROADMAP.md): DP, graphs, heap, greedy, trie, math and contest practice.
+[Struggling list](./docs/STRUGGLING.md)
+
 ## To run project
 
 To run this project, enter the following command in the root directory `dsa-stivers/` of this project:
