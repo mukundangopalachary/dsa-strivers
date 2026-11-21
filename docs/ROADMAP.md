@@ -33,30 +33,30 @@ Reorder: since DSU/MST/bipartite are mostly done, Phase 2 shrinks to SCC/bridges
 Items from `docs/STRUGGLING.md`. Redo from scratch.
 
 ### Arrays / Matrix
-- [ ] [Next Permutation](https://leetcode.com/problems/next-permutation/) M. find pivot, swap, reverse suffix
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) M. use first row/col as markers
-- [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) M. track both max and min
-- [ ] [Majority Element II](https://leetcode.com/problems/majority-element-ii/) M. Moore voting, 2 candidates
-- [ ] [Count Inversions](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1) M. merge sort
+- [ ] <a href="https://leetcode.com/problems/next-permutation/" target="_blank" rel="noopener noreferrer">Next Permutation</a> M. find pivot, swap, reverse suffix
+- [ ] <a href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank" rel="noopener noreferrer">Set Matrix Zeroes</a> M. use first row/col as markers
+- [ ] <a href="https://leetcode.com/problems/maximum-product-subarray/" target="_blank" rel="noopener noreferrer">Maximum Product Subarray</a> M. track both max and min
+- [ ] <a href="https://leetcode.com/problems/majority-element-ii/" target="_blank" rel="noopener noreferrer">Majority Element II</a> M. Moore voting, 2 candidates
+- [ ] <a href="https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1" target="_blank" rel="noopener noreferrer">Count Inversions</a> M. merge sort
 
 ### Binary Search
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) M
-- [ ] [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) M
-- [ ] [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) M
-- [ ] [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) H
+- [ ] <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer">Search in Rotated Sorted Array</a> M
+- [ ] <a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii/" target="_blank" rel="noopener noreferrer">Search in Rotated Sorted Array II</a> M
+- [ ] <a href="https://leetcode.com/problems/koko-eating-bananas/" target="_blank" rel="noopener noreferrer">Koko Eating Bananas</a> M
+- [ ] <a href="https://leetcode.com/problems/split-array-largest-sum/" target="_blank" rel="noopener noreferrer">Split Array Largest Sum</a> H
 
 ### Sliding Window / Two Pointers
-- [ ] [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) M
-- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) M
-- [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) H. monotonic deque
+- [ ] <a href="https://leetcode.com/problems/max-consecutive-ones-iii/" target="_blank" rel="noopener noreferrer">Max Consecutive Ones III</a> M
+- [ ] <a href="https://leetcode.com/problems/longest-repeating-character-replacement/" target="_blank" rel="noopener noreferrer">Longest Repeating Character Replacement</a> M
+- [ ] <a href="https://leetcode.com/problems/sliding-window-maximum/" target="_blank" rel="noopener noreferrer">Sliding Window Maximum</a> H. monotonic deque
 
 ### Linked List / Strings / Bits / Stack
-- [ ] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) M
-- [ ] [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) H
-- [ ] [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) M
-- [ ] [Single Number III](https://leetcode.com/problems/single-number-iii/) M. xor, lowest set bit
-- [ ] [Subsets](https://leetcode.com/problems/subsets/) M. bitmask version too
-- [ ] [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) E
+- [ ] <a href="https://leetcode.com/problems/add-two-numbers/" target="_blank" rel="noopener noreferrer">Add Two Numbers</a> M
+- [ ] <a href="https://leetcode.com/problems/reverse-nodes-in-k-group/" target="_blank" rel="noopener noreferrer">Reverse Nodes in k-Group</a> H
+- [ ] <a href="https://leetcode.com/problems/reverse-words-in-a-string/" target="_blank" rel="noopener noreferrer">Reverse Words in a String</a> M
+- [ ] <a href="https://leetcode.com/problems/single-number-iii/" target="_blank" rel="noopener noreferrer">Single Number III</a> M. xor, lowest set bit
+- [ ] <a href="https://leetcode.com/problems/subsets/" target="_blank" rel="noopener noreferrer">Subsets</a> M. bitmask version too
+- [ ] <a href="https://leetcode.com/problems/next-greater-element-i/" target="_blank" rel="noopener noreferrer">Next Greater Element I</a> E
 - [x] Finish `FloydWarshallAlgorithm.java` (done, compiles)
 
 ---
@@ -73,30 +73,30 @@ Concepts:
 - [ ] Space optimization to O(1)
 
 Problems:
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) E
-- [ ] [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) E
-- [ ] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) E
-- [ ] [House Robber](https://leetcode.com/problems/house-robber/) M
-- [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/) M
-- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/) M
-- [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) M. Kadane as DP
-- [ ] [Word Break](https://leetcode.com/problems/word-break/) M
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/) M
-- [ ] [Jump Game II](https://leetcode.com/problems/jump-game-ii/) M
-- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) M
-- [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) M
-- [x] [Frog Jump with K distance (GFG)](https://www.geeksforgeeks.org/problems/minimal-cost/1) M
+- [ ] <a href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer">Climbing Stairs</a> E
+- [ ] <a href="https://leetcode.com/problems/fibonacci-number/" target="_blank" rel="noopener noreferrer">Fibonacci Number</a> E
+- [ ] <a href="https://leetcode.com/problems/min-cost-climbing-stairs/" target="_blank" rel="noopener noreferrer">Min Cost Climbing Stairs</a> E
+- [ ] <a href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer">House Robber</a> M
+- [ ] <a href="https://leetcode.com/problems/house-robber-ii/" target="_blank" rel="noopener noreferrer">House Robber II</a> M
+- [ ] <a href="https://leetcode.com/problems/decode-ways/" target="_blank" rel="noopener noreferrer">Decode Ways</a> M
+- [ ] <a href="https://leetcode.com/problems/maximum-subarray/" target="_blank" rel="noopener noreferrer">Maximum Subarray</a> M. Kadane as DP
+- [ ] <a href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer">Word Break</a> M
+- [ ] <a href="https://leetcode.com/problems/jump-game/" target="_blank" rel="noopener noreferrer">Jump Game</a> M
+- [ ] <a href="https://leetcode.com/problems/jump-game-ii/" target="_blank" rel="noopener noreferrer">Jump Game II</a> M
+- [ ] <a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer">Longest Palindromic Substring</a> M
+- [ ] <a href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer">Palindromic Substrings</a> M
+- [x] <a href="https://www.geeksforgeeks.org/problems/minimal-cost/1" target="_blank" rel="noopener noreferrer">Frog Jump with K distance (GFG)</a> M
 
 ### 1.2 Grid DP
-- [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/) M
-- [ ] [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) M
-- [ ] [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) M
-- [ ] [Triangle](https://leetcode.com/problems/triangle/) M
-- [ ] [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) M
-- [ ] [Maximal Square](https://leetcode.com/problems/maximal-square/) M
-- [ ] [Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) H. 3D state
-- [ ] [Dungeon Game](https://leetcode.com/problems/dungeon-game/) H. fill backwards
-- [ ] [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) H. DFS + memo
+- [ ] <a href="https://leetcode.com/problems/unique-paths/" target="_blank" rel="noopener noreferrer">Unique Paths</a> M
+- [ ] <a href="https://leetcode.com/problems/unique-paths-ii/" target="_blank" rel="noopener noreferrer">Unique Paths II</a> M
+- [ ] <a href="https://leetcode.com/problems/minimum-path-sum/" target="_blank" rel="noopener noreferrer">Minimum Path Sum</a> M
+- [ ] <a href="https://leetcode.com/problems/triangle/" target="_blank" rel="noopener noreferrer">Triangle</a> M
+- [ ] <a href="https://leetcode.com/problems/minimum-falling-path-sum/" target="_blank" rel="noopener noreferrer">Minimum Falling Path Sum</a> M
+- [ ] <a href="https://leetcode.com/problems/maximal-square/" target="_blank" rel="noopener noreferrer">Maximal Square</a> M
+- [ ] <a href="https://leetcode.com/problems/cherry-pickup-ii/" target="_blank" rel="noopener noreferrer">Cherry Pickup II</a> H. 3D state
+- [ ] <a href="https://leetcode.com/problems/dungeon-game/" target="_blank" rel="noopener noreferrer">Dungeon Game</a> H. fill backwards
+- [ ] <a href="https://leetcode.com/problems/longest-increasing-path-in-a-matrix/" target="_blank" rel="noopener noreferrer">Longest Increasing Path in a Matrix</a> H. DFS + memo
 
 ### 1.3 Subset / 0-1 Knapsack
 Concepts:
@@ -104,52 +104,52 @@ Concepts:
 - [ ] Counting vs boolean vs min/max variants
 
 Problems:
-- [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) M
-- [ ] [Target Sum](https://leetcode.com/problems/target-sum/) M
-- [ ] [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) M
-- [ ] [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) M. 2D knapsack
-- [ ] [Partitions with Given Difference (GFG)](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1) M
-- [x] [0-1 Knapsack (GFG)](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) M
-- [ ] [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) M
+- [ ] <a href="https://leetcode.com/problems/partition-equal-subset-sum/" target="_blank" rel="noopener noreferrer">Partition Equal Subset Sum</a> M
+- [ ] <a href="https://leetcode.com/problems/target-sum/" target="_blank" rel="noopener noreferrer">Target Sum</a> M
+- [ ] <a href="https://leetcode.com/problems/last-stone-weight-ii/" target="_blank" rel="noopener noreferrer">Last Stone Weight II</a> M
+- [ ] <a href="https://leetcode.com/problems/ones-and-zeroes/" target="_blank" rel="noopener noreferrer">Ones and Zeroes</a> M. 2D knapsack
+- [ ] <a href="https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1" target="_blank" rel="noopener noreferrer">Partitions with Given Difference (GFG)</a> M
+- [x] <a href="https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1" target="_blank" rel="noopener noreferrer">0-1 Knapsack (GFG)</a> M
+- [ ] <a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener noreferrer">Partition to K Equal Sum Subsets</a> M
 
 ### 1.4 Unbounded Knapsack
-- [ ] [Coin Change](https://leetcode.com/problems/coin-change/) M
-- [ ] [Coin Change II](https://leetcode.com/problems/coin-change-ii/) M. loop order matters (combinations vs permutations)
-- [ ] [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) M
-- [ ] [Perfect Squares](https://leetcode.com/problems/perfect-squares/) M
-- [ ] [Rod Cutting (GFG)](https://www.geeksforgeeks.org/problems/rod-cutting0840/1) M
-- [ ] [Integer Break](https://leetcode.com/problems/integer-break/) M
+- [ ] <a href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer">Coin Change</a> M
+- [ ] <a href="https://leetcode.com/problems/coin-change-ii/" target="_blank" rel="noopener noreferrer">Coin Change II</a> M. loop order matters (combinations vs permutations)
+- [ ] <a href="https://leetcode.com/problems/combination-sum-iv/" target="_blank" rel="noopener noreferrer">Combination Sum IV</a> M
+- [ ] <a href="https://leetcode.com/problems/perfect-squares/" target="_blank" rel="noopener noreferrer">Perfect Squares</a> M
+- [ ] <a href="https://www.geeksforgeeks.org/problems/rod-cutting0840/1" target="_blank" rel="noopener noreferrer">Rod Cutting (GFG)</a> M
+- [ ] <a href="https://leetcode.com/problems/integer-break/" target="_blank" rel="noopener noreferrer">Integer Break</a> M
 
 ### 1.5 Strings / Two-sequence DP
-- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) M
-- [ ] [Longest Common Substring (GFG)](https://www.geeksforgeeks.org/problems/longest-common-substring1452/1) M
-- [ ] [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) M
-- [ ] [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) H
-- [ ] [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) M
-- [ ] [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) H. print the string
-- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) H
-- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/) M
-- [ ] [Interleaving String](https://leetcode.com/problems/interleaving-string/) M
-- [ ] [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) H
-- [ ] [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) H
+- [ ] <a href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer">Longest Common Subsequence</a> M
+- [ ] <a href="https://www.geeksforgeeks.org/problems/longest-common-substring1452/1" target="_blank" rel="noopener noreferrer">Longest Common Substring (GFG)</a> M
+- [ ] <a href="https://leetcode.com/problems/longest-palindromic-subsequence/" target="_blank" rel="noopener noreferrer">Longest Palindromic Subsequence</a> M
+- [ ] <a href="https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/" target="_blank" rel="noopener noreferrer">Minimum Insertion Steps to Make a String Palindrome</a> H
+- [ ] <a href="https://leetcode.com/problems/delete-operation-for-two-strings/" target="_blank" rel="noopener noreferrer">Delete Operation for Two Strings</a> M
+- [ ] <a href="https://leetcode.com/problems/shortest-common-supersequence/" target="_blank" rel="noopener noreferrer">Shortest Common Supersequence</a> H. print the string
+- [ ] <a href="https://leetcode.com/problems/distinct-subsequences/" target="_blank" rel="noopener noreferrer">Distinct Subsequences</a> H
+- [ ] <a href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer">Edit Distance</a> M
+- [ ] <a href="https://leetcode.com/problems/interleaving-string/" target="_blank" rel="noopener noreferrer">Interleaving String</a> M
+- [ ] <a href="https://leetcode.com/problems/wildcard-matching/" target="_blank" rel="noopener noreferrer">Wildcard Matching</a> H
+- [ ] <a href="https://leetcode.com/problems/regular-expression-matching/" target="_blank" rel="noopener noreferrer">Regular Expression Matching</a> H
 
 ### 1.6 LIS family
-- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) M. O(n²) **then** O(n log n) with binary search
+- [ ] <a href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer">Longest Increasing Subsequence</a> M. O(n²) **then** O(n log n) with binary search
 - [ ] Print the LIS (reconstruct via parent array)
-- [ ] [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) M
-- [ ] [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) M
-- [ ] [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) M
-- [ ] [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) H
-- [ ] [Longest Bitonic Subsequence (GFG)](https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1) M
-- [ ] [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) M
+- [ ] <a href="https://leetcode.com/problems/number-of-longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer">Number of Longest Increasing Subsequence</a> M
+- [ ] <a href="https://leetcode.com/problems/largest-divisible-subset/" target="_blank" rel="noopener noreferrer">Largest Divisible Subset</a> M
+- [ ] <a href="https://leetcode.com/problems/longest-string-chain/" target="_blank" rel="noopener noreferrer">Longest String Chain</a> M
+- [ ] <a href="https://leetcode.com/problems/russian-doll-envelopes/" target="_blank" rel="noopener noreferrer">Russian Doll Envelopes</a> H
+- [ ] <a href="https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1" target="_blank" rel="noopener noreferrer">Longest Bitonic Subsequence (GFG)</a> M
+- [ ] <a href="https://leetcode.com/problems/maximum-length-of-pair-chain/" target="_blank" rel="noopener noreferrer">Maximum Length of Pair Chain</a> M
 
 ### 1.7 Stocks (state machine DP)
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) E
-- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) M
-- [ ] [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) H
-- [ ] [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) H
-- [ ] [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) M
-- [ ] [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) M
+- [ ] <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock</a> E
+- [ ] <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock II</a> M
+- [ ] <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock III</a> H
+- [ ] <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock IV</a> H
+- [ ] <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock with Cooldown</a> M
+- [ ] <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock with Transaction Fee</a> M
 
 ### 1.8 Partition / Interval DP
 Concepts:
@@ -157,68 +157,68 @@ Concepts:
 - [ ] Iterate by interval length
 
 Problems:
-- [ ] Matrix Chain Multiplication ([GFG](https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1)) H
-- [ ] [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) H
-- [ ] [Burst Balloons](https://leetcode.com/problems/burst-balloons/) H
-- [ ] [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) H
-- [ ] [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) M
-- [ ] [Strange Printer](https://leetcode.com/problems/strange-printer/) H
-- [ ] [Boolean Evaluation (GFG)](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1) H
+- [ ] Matrix Chain Multiplication (<a href="https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1" target="_blank" rel="noopener noreferrer">GFG</a>) H
+- [ ] <a href="https://leetcode.com/problems/minimum-cost-to-cut-a-stick/" target="_blank" rel="noopener noreferrer">Minimum Cost to Cut a Stick</a> H
+- [ ] <a href="https://leetcode.com/problems/burst-balloons/" target="_blank" rel="noopener noreferrer">Burst Balloons</a> H
+- [ ] <a href="https://leetcode.com/problems/palindrome-partitioning-ii/" target="_blank" rel="noopener noreferrer">Palindrome Partitioning II</a> H
+- [ ] <a href="https://leetcode.com/problems/partition-array-for-maximum-sum/" target="_blank" rel="noopener noreferrer">Partition Array for Maximum Sum</a> M
+- [ ] <a href="https://leetcode.com/problems/strange-printer/" target="_blank" rel="noopener noreferrer">Strange Printer</a> H
+- [ ] <a href="https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1" target="_blank" rel="noopener noreferrer">Boolean Evaluation (GFG)</a> H
 
 ### 1.9 DP on Squares / Rectangles / Misc
-- [ ] [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) H. reuse your histogram code
-- [ ] [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) M
-- [ ] [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) M. Catalan
-- [ ] [Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) M
-- [ ] [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) M
+- [ ] <a href="https://leetcode.com/problems/maximal-rectangle/" target="_blank" rel="noopener noreferrer">Maximal Rectangle</a> H. reuse your histogram code
+- [ ] <a href="https://leetcode.com/problems/count-square-submatrices-with-all-ones/" target="_blank" rel="noopener noreferrer">Count Square Submatrices with All Ones</a> M
+- [ ] <a href="https://leetcode.com/problems/unique-binary-search-trees/" target="_blank" rel="noopener noreferrer">Unique Binary Search Trees</a> M. Catalan
+- [ ] <a href="https://leetcode.com/problems/domino-and-tromino-tiling/" target="_blank" rel="noopener noreferrer">Domino and Tromino Tiling</a> M
+- [ ] <a href="https://leetcode.com/problems/out-of-boundary-paths/" target="_blank" rel="noopener noreferrer">Out of Boundary Paths</a> M
 
 ### 1.10 Advanced DP (after 1.1–1.9)
 - [ ] Bitmask DP concept. `dp[mask][last]`
-- [ ] [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) H
-- [ ] [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) M. bitmask version
-- [ ] Tree DP: [House Robber III](https://leetcode.com/problems/house-robber-iii/) M
-- [ ] Tree DP: [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) H
-- [ ] Digit DP concept. [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) H
-- [ ] DP on probability: [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) M
+- [ ] <a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/" target="_blank" rel="noopener noreferrer">Shortest Path Visiting All Nodes</a> H
+- [ ] <a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener noreferrer">Partition to K Equal Sum Subsets</a> M. bitmask version
+- [ ] Tree DP: <a href="https://leetcode.com/problems/house-robber-iii/" target="_blank" rel="noopener noreferrer">House Robber III</a> M
+- [ ] Tree DP: <a href="https://leetcode.com/problems/binary-tree-cameras/" target="_blank" rel="noopener noreferrer">Binary Tree Cameras</a> H
+- [ ] Digit DP concept. <a href="https://leetcode.com/problems/numbers-at-most-n-given-digit-set/" target="_blank" rel="noopener noreferrer">Numbers At Most N Given Digit Set</a> H
+- [ ] DP on probability: <a href="https://leetcode.com/problems/knight-probability-in-chessboard/" target="_blank" rel="noopener noreferrer">Knight Probability in Chessboard</a> M
 
 ### 1.11 CSES DP (competitive practice)
-- [x] [Dice Combinations](https://cses.fi/problemset/task/1633)
-- [x] [Minimizing Coins](https://cses.fi/problemset/task/1634)
-- [x] [Coin Combinations I](https://cses.fi/problemset/task/1635)
-- [x] [Coin Combinations II](https://cses.fi/problemset/task/1636)
-- [x] [Removing Digits](https://cses.fi/problemset/task/1637)
-- [x] [Grid Paths](https://cses.fi/problemset/task/1638)
-- [x] [Book Shop](https://cses.fi/problemset/task/1158)
-- [x] [Array Description](https://cses.fi/problemset/task/1746)
-- [ ] [Edit Distance](https://cses.fi/problemset/task/1639)
-- [ ] [Rectangle Cutting](https://cses.fi/problemset/task/1744)
-- [x] [Money Sums](https://cses.fi/problemset/task/1745)
-- [ ] [Removal Game](https://cses.fi/problemset/task/1097)
-- [ ] [Two Sets II](https://cses.fi/problemset/task/1093)
-- [ ] [Increasing Subsequence](https://cses.fi/problemset/task/1145)
-- [ ] [Projects](https://cses.fi/problemset/task/1140)
-- [ ] [Elevator Rides](https://cses.fi/problemset/task/1653)
+- [x] <a href="https://cses.fi/problemset/task/1633" target="_blank" rel="noopener noreferrer">Dice Combinations</a>
+- [x] <a href="https://cses.fi/problemset/task/1634" target="_blank" rel="noopener noreferrer">Minimizing Coins</a>
+- [x] <a href="https://cses.fi/problemset/task/1635" target="_blank" rel="noopener noreferrer">Coin Combinations I</a>
+- [x] <a href="https://cses.fi/problemset/task/1636" target="_blank" rel="noopener noreferrer">Coin Combinations II</a>
+- [x] <a href="https://cses.fi/problemset/task/1637" target="_blank" rel="noopener noreferrer">Removing Digits</a>
+- [x] <a href="https://cses.fi/problemset/task/1638" target="_blank" rel="noopener noreferrer">Grid Paths</a>
+- [x] <a href="https://cses.fi/problemset/task/1158" target="_blank" rel="noopener noreferrer">Book Shop</a>
+- [x] <a href="https://cses.fi/problemset/task/1746" target="_blank" rel="noopener noreferrer">Array Description</a>
+- [ ] <a href="https://cses.fi/problemset/task/1639" target="_blank" rel="noopener noreferrer">Edit Distance</a>
+- [ ] <a href="https://cses.fi/problemset/task/1744" target="_blank" rel="noopener noreferrer">Rectangle Cutting</a>
+- [x] <a href="https://cses.fi/problemset/task/1745" target="_blank" rel="noopener noreferrer">Money Sums</a>
+- [ ] <a href="https://cses.fi/problemset/task/1097" target="_blank" rel="noopener noreferrer">Removal Game</a>
+- [ ] <a href="https://cses.fi/problemset/task/1093" target="_blank" rel="noopener noreferrer">Two Sets II</a>
+- [ ] <a href="https://cses.fi/problemset/task/1145" target="_blank" rel="noopener noreferrer">Increasing Subsequence</a>
+- [ ] <a href="https://cses.fi/problemset/task/1140" target="_blank" rel="noopener noreferrer">Projects</a>
+- [ ] <a href="https://cses.fi/problemset/task/1653" target="_blank" rel="noopener noreferrer">Elevator Rides</a>
 
 ### 1.12 AtCoder Educational DP Contest (best practice set, A to Z)
-[Contest tasks](https://atcoder.jp/contests/dp/tasks)
-- [x] A Frog 1
-- [x] B Frog 2
-- [x] C Vacation
-- [x] D Knapsack 1
-- [ ] E Knapsack 2 (stub in repo, finish. state = value, minimize weight)
-- [ ] F LCS (print the string)
-- [ ] G Longest Path (DP on DAG)
-- [ ] H Grid 1
-- [ ] I Coins (probability DP)
-- [ ] J Sushi (expectation DP)
-- [ ] K Stones (game DP)
-- [ ] L Deque (game DP)
-- [ ] M Candies (prefix-sum optimized DP)
-- [ ] N Slimes (interval DP)
-- [ ] O Matching (bitmask DP)
-- [ ] P Independent Set (tree DP)
-- [ ] Q Flowers (DP + Fenwick/segment tree)
-- [ ] R Walk (matrix exponentiation)
+<a href="https://atcoder.jp/contests/dp/tasks" target="_blank" rel="noopener noreferrer">Contest tasks</a>
+- [x] <a href="https://atcoder.jp/contests/dp/tasks/dp_a" target="_blank" rel="noopener noreferrer">A Frog 1</a>
+- [x] <a href="https://atcoder.jp/contests/dp/tasks/dp_b" target="_blank" rel="noopener noreferrer">B Frog 2</a>
+- [x] <a href="https://atcoder.jp/contests/dp/tasks/dp_c" target="_blank" rel="noopener noreferrer">C Vacation</a>
+- [x] <a href="https://atcoder.jp/contests/dp/tasks/dp_d" target="_blank" rel="noopener noreferrer">D Knapsack 1</a>
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_e" target="_blank" rel="noopener noreferrer">E Knapsack 2</a> (stub in repo, finish. state = value, minimize weight)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_f" target="_blank" rel="noopener noreferrer">F LCS</a> (print the string)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_g" target="_blank" rel="noopener noreferrer">G Longest Path</a> (DP on DAG)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_h" target="_blank" rel="noopener noreferrer">H Grid 1</a>
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_i" target="_blank" rel="noopener noreferrer">I Coins</a> (probability DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_j" target="_blank" rel="noopener noreferrer">J Sushi</a> (expectation DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_k" target="_blank" rel="noopener noreferrer">K Stones</a> (game DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_l" target="_blank" rel="noopener noreferrer">L Deque</a> (game DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_m" target="_blank" rel="noopener noreferrer">M Candies</a> (prefix-sum optimized DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_n" target="_blank" rel="noopener noreferrer">N Slimes</a> (interval DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_o" target="_blank" rel="noopener noreferrer">O Matching</a> (bitmask DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_p" target="_blank" rel="noopener noreferrer">P Independent Set</a> (tree DP)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_q" target="_blank" rel="noopener noreferrer">Q Flowers</a> (DP + Fenwick/segment tree)
+- [ ] <a href="https://atcoder.jp/contests/dp/tasks/dp_r" target="_blank" rel="noopener noreferrer">R Walk</a> (matrix exponentiation)
 
 ---
 
@@ -232,15 +232,15 @@ Concepts:
 - [x] **Fix bug in `Kruskal.java:13`**: sorts by `a[0]` (node u) instead of `a[2]` (weight). MST cost is wrong on most inputs
 
 Problems:
-- [ ] [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) M. redo with DSU
-- [ ] [Redundant Connection](https://leetcode.com/problems/redundant-connection/) M
-- [ ] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) M
-- [ ] [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) M
-- [x] [Accounts Merge](https://leetcode.com/problems/accounts-merge/) M
-- [ ] [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) H
-- [ ] [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) M
-- [ ] [Making A Large Island](https://leetcode.com/problems/making-a-large-island/) H
-- [ ] [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) M
+- [ ] <a href="https://leetcode.com/problems/number-of-provinces/" target="_blank" rel="noopener noreferrer">Number of Provinces</a> M. redo with DSU
+- [ ] <a href="https://leetcode.com/problems/redundant-connection/" target="_blank" rel="noopener noreferrer">Redundant Connection</a> M
+- [ ] <a href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/" target="_blank" rel="noopener noreferrer">Number of Connected Components in an Undirected Graph</a> M
+- [ ] <a href="https://leetcode.com/problems/graph-valid-tree/" target="_blank" rel="noopener noreferrer">Graph Valid Tree</a> M
+- [x] <a href="https://leetcode.com/problems/accounts-merge/" target="_blank" rel="noopener noreferrer">Accounts Merge</a> M
+- [ ] <a href="https://leetcode.com/problems/number-of-islands-ii/" target="_blank" rel="noopener noreferrer">Number of Islands II</a> H
+- [ ] <a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/" target="_blank" rel="noopener noreferrer">Most Stones Removed with Same Row or Column</a> M
+- [ ] <a href="https://leetcode.com/problems/making-a-large-island/" target="_blank" rel="noopener noreferrer">Making A Large Island</a> H
+- [ ] <a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected/" target="_blank" rel="noopener noreferrer">Number of Operations to Make Network Connected</a> M
 
 ### 2.2 Minimum Spanning Tree
 Concepts:
@@ -249,32 +249,32 @@ Concepts:
 - [ ] Cut property (why greedy works)
 
 Problems:
-- [ ] [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) M
-- [ ] [Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) M
-- [ ] [Find Critical and Pseudo-Critical Edges in MST](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) H
-- [ ] CSES [Road Reparation](https://cses.fi/problemset/task/1675)
+- [ ] <a href="https://leetcode.com/problems/min-cost-to-connect-all-points/" target="_blank" rel="noopener noreferrer">Min Cost to Connect All Points</a> M
+- [ ] <a href="https://leetcode.com/problems/connecting-cities-with-minimum-cost/" target="_blank" rel="noopener noreferrer">Connecting Cities With Minimum Cost</a> M
+- [ ] <a href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" target="_blank" rel="noopener noreferrer">Find Critical and Pseudo-Critical Edges in MST</a> H
+- [ ] CSES <a href="https://cses.fi/problemset/task/1675" target="_blank" rel="noopener noreferrer">Road Reparation</a>
 
 ### 2.3 Bipartite / Cycle / Topo (revise + extend)
-- [x] [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) M
-- [ ] [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) M
-- [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) M
-- [ ] [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) H
-- [ ] [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) M
-- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/) M
-- [ ] [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) M
-- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) M
+- [x] <a href="https://leetcode.com/problems/is-graph-bipartite/" target="_blank" rel="noopener noreferrer">Is Graph Bipartite?</a> M
+- [ ] <a href="https://leetcode.com/problems/possible-bipartition/" target="_blank" rel="noopener noreferrer">Possible Bipartition</a> M
+- [ ] <a href="https://leetcode.com/problems/course-schedule-ii/" target="_blank" rel="noopener noreferrer">Course Schedule II</a> M
+- [ ] <a href="https://leetcode.com/problems/alien-dictionary/" target="_blank" rel="noopener noreferrer">Alien Dictionary</a> H
+- [ ] <a href="https://leetcode.com/problems/find-eventual-safe-states/" target="_blank" rel="noopener noreferrer">Find Eventual Safe States</a> M
+- [ ] <a href="https://leetcode.com/problems/clone-graph/" target="_blank" rel="noopener noreferrer">Clone Graph</a> M
+- [ ] <a href="https://leetcode.com/problems/surrounded-regions/" target="_blank" rel="noopener noreferrer">Surrounded Regions</a> M
+- [ ] <a href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank" rel="noopener noreferrer">Pacific Atlantic Water Flow</a> M
 
 ### 2.4 Shortest Path (revise)
-- [x] [Network Delay Time](https://leetcode.com/problems/network-delay-time/) M. Dijkstra
-- [x] [Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) M
-- [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) M. Bellman-Ford / BFS levels
-- [ ] [Path With Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) M
-- [ ] [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) H
-- [ ] [Word Ladder](https://leetcode.com/problems/word-ladder/) H
-- [ ] [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) H
-- [ ] [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) M
-- [x] [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) M. Floyd-Warshall
-- [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) H. Eulerian path
+- [x] <a href="https://leetcode.com/problems/network-delay-time/" target="_blank" rel="noopener noreferrer">Network Delay Time</a> M. Dijkstra
+- [x] <a href="https://leetcode.com/problems/path-with-minimum-effort/" target="_blank" rel="noopener noreferrer">Path with Minimum Effort</a> M
+- [ ] <a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/" target="_blank" rel="noopener noreferrer">Cheapest Flights Within K Stops</a> M. Bellman-Ford / BFS levels
+- [ ] <a href="https://leetcode.com/problems/path-with-maximum-probability/" target="_blank" rel="noopener noreferrer">Path With Maximum Probability</a> M
+- [ ] <a href="https://leetcode.com/problems/swim-in-rising-water/" target="_blank" rel="noopener noreferrer">Swim in Rising Water</a> H
+- [ ] <a href="https://leetcode.com/problems/word-ladder/" target="_blank" rel="noopener noreferrer">Word Ladder</a> H
+- [ ] <a href="https://leetcode.com/problems/word-ladder-ii/" target="_blank" rel="noopener noreferrer">Word Ladder II</a> H
+- [ ] <a href="https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/" target="_blank" rel="noopener noreferrer">Number of Ways to Arrive at Destination</a> M
+- [x] <a href="https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/" target="_blank" rel="noopener noreferrer">Find the City With the Smallest Number of Neighbors at a Threshold Distance</a> M. Floyd-Warshall
+- [ ] <a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank" rel="noopener noreferrer">Reconstruct Itinerary</a> H. Eulerian path
 
 ### 2.5 SCC, Bridges, Articulation Points
 Concepts:
@@ -284,44 +284,44 @@ Concepts:
 - [ ] Articulation point condition
 
 Problems:
-- [ ] [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) H
-- [ ] CSES [Strongly Connected Components](https://cses.fi/problemset/task/1683)
-- [ ] CSES [Coin Collector](https://cses.fi/problemset/task/1686)
+- [ ] <a href="https://leetcode.com/problems/critical-connections-in-a-network/" target="_blank" rel="noopener noreferrer">Critical Connections in a Network</a> H
+- [ ] CSES <a href="https://cses.fi/problemset/task/1683" target="_blank" rel="noopener noreferrer">Strongly Connected Components</a>
+- [ ] CSES <a href="https://cses.fi/problemset/task/1686" target="_blank" rel="noopener noreferrer">Coin Collector</a>
 
 ### 2.6 CSES Graph practice
-- [x] [Counting Rooms](https://cses.fi/problemset/task/1192)
-- [x] [Labyrinth](https://cses.fi/problemset/task/1193)
-- [ ] [Building Roads](https://cses.fi/problemset/task/1666)
-- [ ] [Message Route](https://cses.fi/problemset/task/1667)
-- [ ] [Building Teams](https://cses.fi/problemset/task/1668)
-- [ ] [Round Trip](https://cses.fi/problemset/task/1669)
-- [ ] [Monsters](https://cses.fi/problemset/task/1194)
-- [ ] [Shortest Routes I](https://cses.fi/problemset/task/1671)
-- [ ] [Shortest Routes II](https://cses.fi/problemset/task/1672)
-- [ ] [High Score](https://cses.fi/problemset/task/1673)
-- [ ] [Flight Discount](https://cses.fi/problemset/task/1195)
-- [x] [Cycle Finding](https://cses.fi/problemset/task/1197) (done in repo)
-- [ ] [Course Schedule](https://cses.fi/problemset/task/1679)
-- [ ] [Longest Flight Route](https://cses.fi/problemset/task/1680)
-- [ ] [Game Routes](https://cses.fi/problemset/task/1681)
-- [ ] [Investigation](https://cses.fi/problemset/task/1202)
+- [x] <a href="https://cses.fi/problemset/task/1192" target="_blank" rel="noopener noreferrer">Counting Rooms</a>
+- [x] <a href="https://cses.fi/problemset/task/1193" target="_blank" rel="noopener noreferrer">Labyrinth</a>
+- [ ] <a href="https://cses.fi/problemset/task/1666" target="_blank" rel="noopener noreferrer">Building Roads</a>
+- [ ] <a href="https://cses.fi/problemset/task/1667" target="_blank" rel="noopener noreferrer">Message Route</a>
+- [ ] <a href="https://cses.fi/problemset/task/1668" target="_blank" rel="noopener noreferrer">Building Teams</a>
+- [ ] <a href="https://cses.fi/problemset/task/1669" target="_blank" rel="noopener noreferrer">Round Trip</a>
+- [ ] <a href="https://cses.fi/problemset/task/1194" target="_blank" rel="noopener noreferrer">Monsters</a>
+- [ ] <a href="https://cses.fi/problemset/task/1671" target="_blank" rel="noopener noreferrer">Shortest Routes I</a>
+- [ ] <a href="https://cses.fi/problemset/task/1672" target="_blank" rel="noopener noreferrer">Shortest Routes II</a>
+- [ ] <a href="https://cses.fi/problemset/task/1673" target="_blank" rel="noopener noreferrer">High Score</a>
+- [ ] <a href="https://cses.fi/problemset/task/1195" target="_blank" rel="noopener noreferrer">Flight Discount</a>
+- [x] <a href="https://cses.fi/problemset/task/1197" target="_blank" rel="noopener noreferrer">Cycle Finding</a> (done in repo)
+- [ ] <a href="https://cses.fi/problemset/task/1679" target="_blank" rel="noopener noreferrer">Course Schedule</a>
+- [ ] <a href="https://cses.fi/problemset/task/1680" target="_blank" rel="noopener noreferrer">Longest Flight Route</a>
+- [ ] <a href="https://cses.fi/problemset/task/1681" target="_blank" rel="noopener noreferrer">Game Routes</a>
+- [ ] <a href="https://cses.fi/problemset/task/1202" target="_blank" rel="noopener noreferrer">Investigation</a>
 
 ---
 
 ## Phase 3: Heap, Greedy, Intervals (Week 8)
 
 ### 3.1 Heap / Priority Queue
-- [ ] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) M
-- [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) M
-- [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) E
-- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) M
-- [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) H
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) H. two heaps
-- [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/) M
-- [ ] [Reorganize String](https://leetcode.com/problems/reorganize-string/) M
-- [ ] [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) M
-- [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/) M
-- [ ] [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) H
+- [ ] <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer">Kth Largest Element in an Array</a> M
+- [ ] <a href="https://leetcode.com/problems/top-k-frequent-elements/" target="_blank" rel="noopener noreferrer">Top K Frequent Elements</a> M
+- [ ] <a href="https://leetcode.com/problems/last-stone-weight/" target="_blank" rel="noopener noreferrer">Last Stone Weight</a> E
+- [ ] <a href="https://leetcode.com/problems/k-closest-points-to-origin/" target="_blank" rel="noopener noreferrer">K Closest Points to Origin</a> M
+- [ ] <a href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank" rel="noopener noreferrer">Merge k Sorted Lists</a> H
+- [ ] <a href="https://leetcode.com/problems/find-median-from-data-stream/" target="_blank" rel="noopener noreferrer">Find Median from Data Stream</a> H. two heaps
+- [ ] <a href="https://leetcode.com/problems/task-scheduler/" target="_blank" rel="noopener noreferrer">Task Scheduler</a> M
+- [ ] <a href="https://leetcode.com/problems/reorganize-string/" target="_blank" rel="noopener noreferrer">Reorganize String</a> M
+- [ ] <a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/" target="_blank" rel="noopener noreferrer">Kth Smallest Element in a Sorted Matrix</a> M
+- [ ] <a href="https://leetcode.com/problems/design-twitter/" target="_blank" rel="noopener noreferrer">Design Twitter</a> M
+- [ ] <a href="https://leetcode.com/problems/sliding-window-median/" target="_blank" rel="noopener noreferrer">Sliding Window Median</a> H
 
 ### 3.2 Greedy
 Concepts:
@@ -329,38 +329,38 @@ Concepts:
 - [ ] Sort by end time / ratio / deadline
 
 Problems:
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/) M
-- [ ] [Gas Station](https://leetcode.com/problems/gas-station/) M
-- [ ] [Candy](https://leetcode.com/problems/candy/) H
-- [ ] [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) M
-- [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/) M
-- [ ] [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) M
-- [ ] [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) M
-- [ ] [Minimum Number of Platforms (GFG)](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) M
-- [ ] [Job Sequencing Problem (GFG)](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) M
-- [ ] [Fractional Knapsack (GFG)](https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1) M
+- [ ] <a href="https://leetcode.com/problems/jump-game/" target="_blank" rel="noopener noreferrer">Jump Game</a> M
+- [ ] <a href="https://leetcode.com/problems/gas-station/" target="_blank" rel="noopener noreferrer">Gas Station</a> M
+- [ ] <a href="https://leetcode.com/problems/candy/" target="_blank" rel="noopener noreferrer">Candy</a> H
+- [ ] <a href="https://leetcode.com/problems/hand-of-straights/" target="_blank" rel="noopener noreferrer">Hand of Straights</a> M
+- [ ] <a href="https://leetcode.com/problems/partition-labels/" target="_blank" rel="noopener noreferrer">Partition Labels</a> M
+- [ ] <a href="https://leetcode.com/problems/valid-parenthesis-string/" target="_blank" rel="noopener noreferrer">Valid Parenthesis String</a> M
+- [ ] <a href="https://leetcode.com/problems/merge-triplets-to-form-target-triplet/" target="_blank" rel="noopener noreferrer">Merge Triplets to Form Target Triplet</a> M
+- [ ] <a href="https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1" target="_blank" rel="noopener noreferrer">Minimum Number of Platforms (GFG)</a> M
+- [ ] <a href="https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1" target="_blank" rel="noopener noreferrer">Job Sequencing Problem (GFG)</a> M
+- [ ] <a href="https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1" target="_blank" rel="noopener noreferrer">Fractional Knapsack (GFG)</a> M
 
 ### 3.3 Intervals
-- [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) M (done in repo, revise)
-- [ ] [Insert Interval](https://leetcode.com/problems/insert-interval/) M
-- [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) M
-- [ ] [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) M
-- [ ] [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) H
+- [ ] <a href="https://leetcode.com/problems/merge-intervals/" target="_blank" rel="noopener noreferrer">Merge Intervals</a> M (done in repo, revise)
+- [ ] <a href="https://leetcode.com/problems/insert-interval/" target="_blank" rel="noopener noreferrer">Insert Interval</a> M
+- [ ] <a href="https://leetcode.com/problems/non-overlapping-intervals/" target="_blank" rel="noopener noreferrer">Non-overlapping Intervals</a> M
+- [ ] <a href="https://leetcode.com/problems/meeting-rooms-ii/" target="_blank" rel="noopener noreferrer">Meeting Rooms II</a> M
+- [ ] <a href="https://leetcode.com/problems/minimum-interval-to-include-each-query/" target="_blank" rel="noopener noreferrer">Minimum Interval to Include Each Query</a> H
 
 ### 3.4 Binary Search extras (answer-space)
-- [ ] [Aggressive Cows (SPOJ)](https://www.spoj.com/problems/AGGRCOW/) M
-- [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) H (done in repo, revise)
-- [ ] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) M
+- [ ] <a href="https://www.spoj.com/problems/AGGRCOW/" target="_blank" rel="noopener noreferrer">Aggressive Cows (SPOJ)</a> M
+- [ ] <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank" rel="noopener noreferrer">Median of Two Sorted Arrays</a> H (done in repo, revise)
+- [ ] <a href="https://leetcode.com/problems/time-based-key-value-store/" target="_blank" rel="noopener noreferrer">Time Based Key-Value Store</a> M
 
 ---
 
 ## Phase 4: Trie, Range Queries, Math (Week 9)
 
 ### 4.1 Trie
-- [ ] [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/) M
-- [ ] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) M
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/) H
-- [ ] [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) M
+- [ ] <a href="https://leetcode.com/problems/implement-trie-prefix-tree/" target="_blank" rel="noopener noreferrer">Implement Trie</a> M
+- [ ] <a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/" target="_blank" rel="noopener noreferrer">Design Add and Search Words Data Structure</a> M
+- [ ] <a href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer">Word Search II</a> H
+- [ ] <a href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/" target="_blank" rel="noopener noreferrer">Maximum XOR of Two Numbers in an Array</a> M
 
 ### 4.2 Prefix sums / Difference arrays / Range queries
 Concepts:
@@ -371,14 +371,14 @@ Concepts:
 - [ ] Sparse Table (static RMQ)
 
 Problems:
-- [ ] [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) E
-- [ ] [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) M
-- [ ] [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) M. difference array
-- [ ] [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) M. BIT / segment tree
-- [ ] [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) H
-- [x] CSES [Static Range Sum Queries](https://cses.fi/problemset/task/1646)
-- [x] CSES [Static Range Minimum Queries](https://cses.fi/problemset/task/1647)
-- [x] CSES [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648)
+- [ ] <a href="https://leetcode.com/problems/range-sum-query-immutable/" target="_blank" rel="noopener noreferrer">Range Sum Query - Immutable</a> E
+- [ ] <a href="https://leetcode.com/problems/range-sum-query-2d-immutable/" target="_blank" rel="noopener noreferrer">Range Sum Query 2D - Immutable</a> M
+- [ ] <a href="https://leetcode.com/problems/corporate-flight-bookings/" target="_blank" rel="noopener noreferrer">Corporate Flight Bookings</a> M. difference array
+- [ ] <a href="https://leetcode.com/problems/range-sum-query-mutable/" target="_blank" rel="noopener noreferrer">Range Sum Query - Mutable</a> M. BIT / segment tree
+- [ ] <a href="https://leetcode.com/problems/count-of-smaller-numbers-after-self/" target="_blank" rel="noopener noreferrer">Count of Smaller Numbers After Self</a> H
+- [x] CSES <a href="https://cses.fi/problemset/task/1646" target="_blank" rel="noopener noreferrer">Static Range Sum Queries</a>
+- [x] CSES <a href="https://cses.fi/problemset/task/1647" target="_blank" rel="noopener noreferrer">Static Range Minimum Queries</a>
+- [x] CSES <a href="https://cses.fi/problemset/task/1648" target="_blank" rel="noopener noreferrer">Dynamic Range Sum Queries</a>
 
 ### 4.3 Math for Competitive Programming
 Concepts:
@@ -393,22 +393,22 @@ Concepts:
 - [ ] Basic combinatorics (stars and bars, Catalan)
 
 Problems:
-- [ ] [Count Primes](https://leetcode.com/problems/count-primes/) M
-- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/) M
-- [ ] [Super Pow](https://leetcode.com/problems/super-pow/) M
-- [ ] [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) M
-- [ ] CSES [Exponentiation](https://cses.fi/problemset/task/1095)
-- [ ] CSES [Counting Divisors](https://cses.fi/problemset/task/1713)
-- [ ] CSES [Binomial Coefficients](https://cses.fi/problemset/task/1079)
-- [ ] CSES [Creating Strings II](https://cses.fi/problemset/task/1715)
+- [ ] <a href="https://leetcode.com/problems/count-primes/" target="_blank" rel="noopener noreferrer">Count Primes</a> M
+- [ ] <a href="https://leetcode.com/problems/powx-n/" target="_blank" rel="noopener noreferrer">Pow(x, n)</a> M
+- [ ] <a href="https://leetcode.com/problems/super-pow/" target="_blank" rel="noopener noreferrer">Super Pow</a> M
+- [ ] <a href="https://leetcode.com/problems/ugly-number-ii/" target="_blank" rel="noopener noreferrer">Ugly Number II</a> M
+- [ ] CSES <a href="https://cses.fi/problemset/task/1095" target="_blank" rel="noopener noreferrer">Exponentiation</a>
+- [ ] CSES <a href="https://cses.fi/problemset/task/1713" target="_blank" rel="noopener noreferrer">Counting Divisors</a>
+- [ ] CSES <a href="https://cses.fi/problemset/task/1079" target="_blank" rel="noopener noreferrer">Binomial Coefficients</a>
+- [ ] CSES <a href="https://cses.fi/problemset/task/1715" target="_blank" rel="noopener noreferrer">Creating Strings II</a>
 
 ### 4.4 Two pointers / String algorithms
-- [ ] [3Sum](https://leetcode.com/problems/3sum/) M (done in repo, revise)
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) M
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) H
-- [ ] [Permutation in String](https://leetcode.com/problems/permutation-in-string/) M
-- [ ] [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) E. KMP / Z-function
-- [ ] [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) H. KMP
+- [ ] <a href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer">3Sum</a> M (done in repo, revise)
+- [ ] <a href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer">Container With Most Water</a> M
+- [ ] <a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer">Minimum Window Substring</a> H
+- [ ] <a href="https://leetcode.com/problems/permutation-in-string/" target="_blank" rel="noopener noreferrer">Permutation in String</a> M
+- [ ] <a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" target="_blank" rel="noopener noreferrer">Find the Index of the First Occurrence in a String</a> E. KMP / Z-function
+- [ ] <a href="https://leetcode.com/problems/shortest-palindrome/" target="_blank" rel="noopener noreferrer">Shortest Palindrome</a> H. KMP
 
 ---
 
@@ -422,7 +422,7 @@ Problems:
 - [ ] Codeforces Div. 2: 3 rounds, goal A–B
 
 ### 5.2 Codeforces ladder by tag
-Use [problemset](https://codeforces.com/problemset) with a tag filter. 45 min cap before reading editorial. Log the ID in `competitive_programming/codeforces/`.
+Use <a href="https://codeforces.com/problemset" target="_blank" rel="noopener noreferrer">problemset</a> with a tag filter. 45 min cap before reading editorial. Log the ID in `competitive_programming/codeforces/`.
 
 | Rating | Target | Tags to cover |
 |---|---|---|
@@ -464,5 +464,5 @@ Redo each problem after 1 day, 1 week and 1 month. Date format `YYYY-MM-DD`.
 
 ## Sources
 
-- Problem sets curated from: Striver A2Z / DP series, NeetCode 150, Blind 75, [CSES Problem Set](https://cses.fi/problemset/), [Codeforces problemset](https://codeforces.com/problemset).
+- Problem sets curated from: Striver A2Z / DP series, NeetCode 150, Blind 75, <a href="https://cses.fi/problemset/" target="_blank" rel="noopener noreferrer">CSES Problem Set</a>, <a href="https://codeforces.com/problemset" target="_blank" rel="noopener noreferrer">Codeforces problemset</a>.
 - Problem links and groupings written from standard curated lists. Spot-check any link that 404s.
